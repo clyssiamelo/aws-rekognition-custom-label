@@ -6,4 +6,10 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Rekognition" Version="3.7.0.17" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.0.19" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
 </Project>
